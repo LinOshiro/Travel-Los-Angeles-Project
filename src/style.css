@@ -74,6 +74,18 @@ body {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: purple;
+  color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #462cb3;
+  color: white;
+  cursor: pointer;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -215,6 +227,12 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
+}
+
+footer a:hover {
+  cursor: pointer;
+  color: lightpink;
+  font-weight: bolder;
 }
 
 @media (max-width: 960px) {
