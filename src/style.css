@@ -3,6 +3,17 @@ body {
   background-color: #272044;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.smooth-scroll-wrapper {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
